@@ -23,5 +23,13 @@
 }
 
 section{
+  text-align: center;
   padding: 1rem;
+}
+
+.contents {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: minmax(300px, 600px) minmax(300px, 600px); 
+  grid-gap: 3rem; 
 }
